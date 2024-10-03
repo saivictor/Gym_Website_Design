@@ -1,0 +1,162 @@
+*{margin: 0px;
+padding: 0px;}
+body{
+    overflow-x: hidden;
+}
+.main{
+    background-color: rgb(0, 0, 0); 
+    width: 100vw;
+    height: vh;
+}
+.naw{
+    background-color: black;
+    /* width: 100vw; */
+    column-gap: 30px;
+    padding: 15PX;
+    margin-left: 100px;
+   
+}
+.home{
+    color: white;
+}
+.warning{
+    color: black;
+}
+.pic{
+    width: 700px;
+    position: absolute;
+    /* background-color: aliceblue; */
+}
+.col-12{
+    position: relative;
+}
+.ii{
+    color: yellow;
+    font-size: 50px;
+    padding-left: 18px;
+    width: 100px;
+    padding-top: 10px;
+    
+}
+.imm{
+    background-image: url(../assets/now.jpeg);
+    width:1160px;
+    height: 540px;
+    background-size: cover;
+}
+
+.BB{
+    background-color: yellow;
+   border-radius: 2PX;
+}
+.colom3{
+    width: 100vw;
+    /* height: 150px;  */
+}
+.backtext{position: relative;
+    background-size: cover;height: 150px;
+   background-image: url(../assets/who\ are.jpg)
+   
+
+   
+}
+.col-6{
+    border: 1px solid black;
+    height: 580px;
+    
+    /* background-color: aliceblue; */
+}
+.backtext1{position: relative;
+    background-size: cover;height: 150px;
+    width: 1150px;
+   background-image: url(../assets/meet.jpg);
+}
+.card{
+    border: 1px solid black;
+    width: 250px;
+    height: 290px;
+}
+.r2{
+    column-gap: 50px;
+}
+.backtext2{position: relative;
+    background-size: cover;height: 150px;
+    width: 1150px;
+   background-image: url(../assets/fcc.jpg);
+}
+.colm2{
+    border: 1px solid white;
+}
+.colm2{
+    width: 550PX
+    height: 500px;
+}
+.colm3{
+    width: 550PX;
+    border: 1px solid white;
+    height: 500px;
+
+    
+}
+.r3{
+    column-gap: 30px;
+    row-gap: 30px;
+    
+}
+.card4,.card6{
+    border: 1px solid white;
+    width: 300px;
+    height: 500px;
+    background-color: gray;
+    /* background-image: url(../assets/time11.png); */
+    /* background-size: 00px; */
+
+}.card5{
+    border: 1px solid white;
+    width: 330px;
+    height: 500px;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    
+}
+.tick{
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 100%;
+    font-weight: bolder;
+    height: 30px;
+}
+.amount{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    margin-left: 30px;
+}
+.r4{
+    margin-left: 90px;
+}
+.roww{
+    background-color: yellow;
+}
+.yellow{
+    background-color: yellow;
+    height: 150px;
+    text-align: start;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.yellow1{
+    background-color: yellow;
+    padding-top: 50px;
+}
+.bu2{
+    background-color: black;
+    margin-right: 10PX;
+}
+@media all and (max-width:600px){
+    .cl{
+        display: none;
+    }
+} 
+  
+
